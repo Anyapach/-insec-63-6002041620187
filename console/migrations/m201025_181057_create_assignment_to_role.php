@@ -39,7 +39,7 @@ class m201025_181057_create_assignment_to_role extends Migration
 
         $auth->revoke($superAdmin,1);
         $auth->revoke($admin,2);
-        $auth->revoke($author,3);
+        $auth->revoke($author,3)
 
         //echo "m201025_181057_create_assignment_to_role cannot be reverted.\n";
 
